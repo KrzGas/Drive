@@ -5,6 +5,7 @@ nav {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
   .menu__visible {
     opacity: 1;
     animation: visibleNav 0.5s ease-in-out;
@@ -93,12 +94,12 @@ nav {
     font-size: 30px;
   }
   @media (min-width: 450px) and (max-width: 900px) {
-    font-size: 45px;
+    font-size: 40px;
   }
   @media (min-width: 900px) and (max-width: 1200px) {
-    font-size: 50px;
+    font-size: 45px;
   }
   @media (min-width: 1200px) {
-    font-size: 65px;
+    font-size: 50px;
   }
 }
