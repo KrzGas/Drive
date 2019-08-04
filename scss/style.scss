@@ -1,0 +1,45 @@
+$default-margin: 25px 0;
+@import "partials/header";
+@import "partials/navigation";
+@import "partials/footer";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#app {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  color: #fff;
+}
+
+#app {
+  @media only screen and (max-width: 600px) {
+
+  }
+  @media (max-width: 450px) {
+    
+  }
+  @media (min-width: 450px) and (max-width: 900px) {
+    
+  }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    
+  }
+  @media (min-width: 1200px) {
+    
+  }
+}
