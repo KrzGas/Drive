@@ -3,7 +3,7 @@ header {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 auto;
+    margin: 25px auto;
     width: 100%;
     max-width: 1024px;
     h1 {
@@ -13,16 +13,16 @@ header {
 
   @keyframes jump {
     0% {
-      transform: translateX(100px) skewX(50deg);
+      transform: translateX(200px) skewX(50deg);
     }
     25%{
-      transform: translateX(50px) skewX(50deg);
+      transform: translateX(100px) skewX(50deg);
     }
     50% {
-      transform: translateX(-100px) skewX(-50deg);
+      transform: translateX(-200px) skewX(-50deg);
     }
     75% {
-      transform: translateX(-50px) skewX(-50deg);
+      transform: translateX(-100px) skewX(-50deg);
     }
     100% {
       transform: translateX(0px) skewX(0deg);

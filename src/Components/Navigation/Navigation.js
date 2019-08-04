@@ -50,12 +50,12 @@ class Navigation extends Component {
         {this.state.swap ? (
           <>
           <i className="fas fa-bars" onClick={this.switchMenu} />
-          <span>Schowaj menu</span>
+          <span>Pokaż menu</span>
           </>
         ) : 
         <>
           <i className="far fa-window-close" onClick={this.switchMenu} />
-          <span>Pokaż menu</span>
+          <span>Schowaj menu</span>
           </>
         }
         </div>
