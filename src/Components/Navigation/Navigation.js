@@ -13,7 +13,7 @@ const MenuElements = [
     icon: "far fa-newspaper"
   },
   {
-    path: "/wideo",
+    path: "/video",
     name: "Wideo",
     icon: "far fa-file-video"
   },

@@ -45,9 +45,14 @@ nav {
   align-items: center;
   color: $base-color;
   font-size: 0.75em;
-    &:hover {
-      color: $base-color-hover;
-    }
+  span {
+    opacity: 0;
+  }
+  &:hover span{
+    color: $base-color-hover;
+    opacity: 1;
+    cursor: grab;
+  }
 }
 
 .fa-window-close,

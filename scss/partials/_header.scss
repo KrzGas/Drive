@@ -7,11 +7,12 @@ header {
     width: 100%;
     max-width: 1024px;
     h1 {
-      animation: jump 1.5s linear;
+      animation: fastEnter 1.5s linear;
+      color: $colorUp;
     }
   }
 
-  @keyframes jump {
+  @keyframes fastEnter {
     0% {
       transform: translateX(200px) skewX(50deg);
     }
