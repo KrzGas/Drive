@@ -1,0 +1,23 @@
+.main__window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    animation: enter 1s linear;
+    text-align: center;
+    margin: $default-margin;
+  }
+}
+
+@keyframes enter {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
