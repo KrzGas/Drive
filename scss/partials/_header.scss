@@ -11,21 +11,3 @@ header {
       color: $colorUp;
     }
   }
-
-  @keyframes fastEnter {
-    0% {
-      transform: translateX(200px) skewX(50deg);
-    }
-    25%{
-      transform: translateX(100px) skewX(50deg);
-    }
-    50% {
-      transform: translateX(-200px) skewX(-50deg);
-    }
-    75% {
-      transform: translateX(-100px) skewX(-50deg);
-    }
-    100% {
-      transform: translateX(0px) skewX(0deg);
-    }
-  }
