@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-export const Video = () => {
+export const Quiz = () => {
   return (
-    <h1>Video</h1>
+    <h1 id="Quiz">Quiz</h1>
   );
 };
