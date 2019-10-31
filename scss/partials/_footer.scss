@@ -1,7 +1,7 @@
 footer {
   width: 100%;
   font-style: italic;
-  padding: 5px;
+  padding: 0.3125em;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -11,7 +11,7 @@ footer {
     display: flex;
     justify-content: space-around;
     li {
-      padding: 10px;
+      padding: 0.625em;
       a:visited,
       a:link {
         text-decoration: none;
@@ -42,16 +42,16 @@ span {
 .fa-twitter,
 .fa-github {
   @media (max-width: 450px) {
-    font-size: 15px;
+    font-size: 0.9375em;
   }
   @media (min-width: 450px) and (max-width: 900px) {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   @media (min-width: 900px) and (max-width: 1200px) {
-    font-size: 25px;
+    font-size: 1.5625em;
   }
   @media (min-width: 1200px) {
-    font-size: 30px;
+    font-size: 1.875em;
   }
 }
 

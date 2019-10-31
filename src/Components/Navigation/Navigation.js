@@ -17,10 +17,6 @@ const MenuElements = [
   {
     path: "Quiz",
     name: "Quiz"
-  },
-  {
-    path: "Login",
-    name: "Zaloguj się"
   }
 ];
 
@@ -28,7 +24,7 @@ class Navigation extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      swap: false
+      swap: true
     };
   }
 
