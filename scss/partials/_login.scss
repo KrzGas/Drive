@@ -1,0 +1,83 @@
+$login-color: rgba(0, 0, 0, 0.4);
+$login-color-hover: rgba(0, 0, 0, 1);
+
+.panel__visible,
+.panel__hidden {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  min-width: 10em;
+  background: $login-color;
+  z-index: 2;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.panel__visible {
+  opacity: 1;
+  animation: visiblePanel 0.5s ease-in-out;
+}
+
+.panel__hidden {
+  opacity: 0;
+  animation: hiddenPanel 0.1s ease-in-out;
+}
+
+.login__button {
+  border: none;
+  padding: 0.625em;
+  border-radius: 0.3125em;
+  background: $colorUp;
+  color: #fff;
+  font-weight: bold;
+}
+
+.panel__wrapper {
+  position: fixed;
+  top: 0.5em;
+  right: 0.5em;
+  color: $base-color;
+  font-size: 0.75em;
+  z-index: 3;
+}
+
+.fa-user, .fa-key {
+  font-size: 2.1875em;
+  color: $login-color;
+  padding: 10px 5px;
+}
+
+.fa-key {
+  color: $colorUp;
+}
+
+.fa-user:hover {
+  cursor: grab;
+  color: $login-color-hover;
+}
+
+@keyframes visiblePanel {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes hiddenPanel {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+}
