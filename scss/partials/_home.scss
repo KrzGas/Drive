@@ -5,12 +5,13 @@ $color-about-font: #000;
   min-height: 40em;
   margin: $default-margin;
   .about {
-    margin: 1.5625em auto;
-    background: $color-about;
+    margin: 10em auto 0;
     max-width: 40em;
-    color: $color-about-font;
+    color: #ffffff;
     padding: 0.9375em;
     border-radius: 0.3125em;
-    line-height: 3em;
+    line-height: 2em;
+    font-weight: bolder;
+    text-align: center;
   }
 }
