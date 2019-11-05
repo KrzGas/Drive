@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import {SignUp} from "./SignUp";
 
 class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      swap: true
+      swap: true,
+      show: false
     };
   }
 
@@ -12,14 +14,14 @@ class Login extends Component {
     this.setState({
       swap: !this.state.swap
     });
-  }
+  };
+
 
   render() {
     return (
       <>
       <div className={this.state.swap ? "panel__hidden": "panel__visible"}>
-        <button className="login__button">ZALOGUJ SIĘ</button>
-        <i className="fas fa-key" />
+      {this.state.swap ? null: <SignUp />}
       </div>
       <div className="panel__wrapper">
       {this.state.swap ?
