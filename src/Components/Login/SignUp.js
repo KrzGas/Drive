@@ -13,23 +13,23 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
-function Copyright() {
-    return (
-      <Typography variant="body2" color="textSecondary" align="center">
-        {'Copyright © '}
-        <Link color="inherit" href="https://material-ui.com/">
-          Your Website
-        </Link>{' '}
-        {new Date().getFullYear()}
-        {'.'}
-      </Typography>
-    );
-  }
+// function Copyright() {
+//     return (
+//       <Typography variant="body2" color="textSecondary" align="center">
+//         {'Copyright © '}
+//         <Link color="inherit" href="https://material-ui.com/">
+//           Your Website
+//         </Link>{' '}
+//         {new Date().getFullYear()}
+//         {'.'}
+//       </Typography>
+//     );
+//   }
   
   const useStyles = makeStyles(theme => ({
     '@global': {
       body: {
-        backgroundColor: "transparent",
+        backgroundColor: "transparent"
       },
     },
     paper: {
@@ -37,7 +37,7 @@ function Copyright() {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
-      backgroundColor: "rgba(255,255,255, 0.7)",
+      backgroundColor: "rgba(255,255,255, 0.55)",
       padding: 15
     },
     avatar: {
@@ -139,9 +139,9 @@ function Copyright() {
           </Grid>
         </form>
       </div>
-      <Box mt={5}>
+      {/* <Box mt={5}>
         <Copyright />
-      </Box>
+      </Box> */}
     </Container>
     );
   }

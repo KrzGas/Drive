@@ -17,6 +17,10 @@ const MenuElements = [
   {
     path: "Quiz",
     name: "Quiz"
+  },
+  {
+    path: "Login",
+    name: "Login"
   }
 ];
 
