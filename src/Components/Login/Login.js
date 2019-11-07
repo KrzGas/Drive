@@ -18,7 +18,7 @@ class Login extends Component {
   render() {
     return (
       <section id="Login">
-        <h1 onClick={this.showPanel}>Logowanie</h1>
+        <i className="fa fa-user" onClick={this.showPanel}></i>
         {this.state.show && <SignUp />}
       </section>
     );
