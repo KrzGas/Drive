@@ -1,7 +1,12 @@
 #Login {
   min-height: 20rem;
   text-align: center;
-  h1:hover {
-    cursor: pointer;
+  .fa-user {
+    font-size: 6em;
+    color: rgba(0, 0, 0, 0.7);
+    &:hover {
+      cursor: pointer;
+      color: rgba(0, 0, 0, 1);
+    }
   }
 }

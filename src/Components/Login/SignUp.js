@@ -29,7 +29,8 @@ import Container from '@material-ui/core/Container';
   const useStyles = makeStyles(theme => ({
     '@global': {
       body: {
-        backgroundColor: "transparent"
+        backgroundColor: "transparent",
+        color: '#fff'
       },
     },
     paper: {
@@ -38,7 +39,8 @@ import Container from '@material-ui/core/Container';
       flexDirection: 'column',
       alignItems: 'center',
       backgroundColor: "rgba(255,255,255, 0.55)",
-      padding: 15
+      padding: 15,
+      color: '#000'
     },
     avatar: {
       margin: theme.spacing(1),
@@ -47,6 +49,7 @@ import Container from '@material-ui/core/Container';
     form: {
       width: '100%', // Fix IE 11 issue.
       marginTop: theme.spacing(3),
+      
     },
     submit: {
       margin: theme.spacing(3, 0, 2),
